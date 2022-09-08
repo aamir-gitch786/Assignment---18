@@ -13,12 +13,12 @@ int main()
     printf("Enter the string \n");
     fgets(s,100,stdin);
     printf("Repeated character in this given string is : \n");
-    for(int i=0;s[i]!='\n';i++)
+    for(int i=0;s[i];i++)
     { tem=0;
        k=s[i];
-       for(int j=i+1;s[j]!='\n' && s[j]!='*';j++)
+       for(int j=i+1;s[j]  ;j++)
        {
-           if(k==s[j])
+           if(k==s[j] && s[j]!='*')
            {
                tem=1;
                s[j]='*';
