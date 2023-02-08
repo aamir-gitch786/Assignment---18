@@ -9,7 +9,7 @@ int length(char []);
 int main()
 {
     char a[100];
-    printf("Lentgth of string is : %d",length(a));
+    printf("Length of string is : %d",length(a));
 
     return 0;
 }
